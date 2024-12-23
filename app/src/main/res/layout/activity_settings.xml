@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:maxWidth="320dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Theme Switch -->
+    <Switch
+        android:id="@+id/switchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:maxWidth="250dp"
+        android:minHeight="50dp"
+        android:padding="8dp"
+        android:text="Dark Theme" />
+
+    <!-- Notification Toggle Button -->
+    <Button
+        android:id="@+id/buttonToggleNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Notifications"
+        android:layout_marginTop="16dp" />
+
+    <!-- New button to disable notifications -->
+    <Button
+        android:id="@+id/buttonDisableNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disable Notifications"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
